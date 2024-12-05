@@ -12,7 +12,8 @@ bool mycom(Process &a ,Process &b)
 }
 
 // Function to calculate average waiting time and display results
-void displayResults(const vector<Process> &processes, const vector<int> &sequence) {
+void displayResults(const vector<Process> &processes, const vector<int> &sequence) 
+{
     double totalWaitingTime = 0;
     cout << "Process\tArrival\tBurst\tWaiting\n";
     for (const auto &p : processes) {
